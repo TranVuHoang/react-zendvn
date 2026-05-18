@@ -83,3 +83,39 @@ TÌM HIỂU CẤU TRÚC THƯ MỤC CỦA DỰ ÁN REACT
   - REAMDE.md: miêu tả cho project
   - package.json: file cấu hình cho dự án
 ```
+
+## 7. Tạo component Hello
+
+```
+Tạo Component Hello bằng cách:
+
+trong 📁src tạo mới file: Hello.jsx và thêm nội dung:
+```
+
+```jsx
+// Hello.jsx (tạo nội dung nhanh: rsc + tab)
+const Hello = () => {
+  return (
+    <div>
+      <h3>Hello Component</h3>
+    </div>
+  );
+};
+
+export default Hello;
+```
+
+Trong file App.jsx cần import Component Hello:
+
+```jsx
+// App.jsx
+import Hello from "./Hello";
+```
+
+## 8. Tích hợp Bootstrap
+
+CDN BOOTSTRAP
+
+```css
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+```
