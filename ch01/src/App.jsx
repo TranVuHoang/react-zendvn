@@ -1,52 +1,15 @@
 import "./App.css";
+import Course from "./components/Course";
 
 const App = () => {
   return (
     <div className="row">
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <div className="panel panel-info">
-          <div className="panel-heading">
-            <h3 className="panel-title">ReactJS</h3>
-          </div>
-          <div className="panel-body">
-            <ul className="list-group">
-              <li className="list-group-item">Item 1</li>
-              <li className="list-group-item">Item 2</li>
-              <li className="list-group-item">Item 3</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <div className="panel panel-info">
-          <div className="panel-heading">
-            <h3 className="panel-title">AngularJS</h3>
-          </div>
-          <div className="panel-body">
-            <ul className="list-group">
-              <li className="list-group-item">Item 1</li>
-              <li className="list-group-item">Item 2</li>
-              <li className="list-group-item">Item 3</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <div className="panel panel-info">
-          <div className="panel-heading">
-            <h3 className="panel-title">VueJS</h3>
-          </div>
-          <div className="panel-body">
-            <ul className="list-group">
-              <li className="list-group-item">Item 1</li>
-              <li className="list-group-item">Item 2</li>
-              <li className="list-group-item">Item 3</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <Course />
+      <Course />
+      <Course />
+      <Course />
+      <Course />
+      <Course />
     </div>
   );
 };
