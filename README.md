@@ -43,3 +43,27 @@
 - React develop tools
 - Nodejs
 ```
+
+## 4. Tìm hiểu ReactJS phần 1
+
+```
+Tạo ứng dụng react đầu tiên với lệnh:
+
+npx create-react-app my-app
+```
+
+## 5 Tìm hiểu ReactJS phần 2
+
+```
+Tìm hiểu component trong React
+
+HEADER
+  LogoComponent
+  MenuComponent
+CONTENT
+  MainContentComponent
+  SidebarComponent
+FOOTER
+  FooterTopComponent
+  FooterBottomComponent
+```
