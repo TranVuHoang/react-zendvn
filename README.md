@@ -52,7 +52,7 @@ Tạo ứng dụng react đầu tiên với lệnh:
 npx create-react-app my-app
 ```
 
-## 5 Tìm hiểu ReactJS phần 2
+## 5. Tìm hiểu ReactJS phần 2
 
 ```
 Tìm hiểu component trong React
@@ -66,4 +66,20 @@ CONTENT
 FOOTER
   FooterTopComponent
   FooterBottomComponent
+```
+
+## 6. Tìm hiểu ReactJS phần 3
+
+```
+TÌM HIỂU CẤU TRÚC THƯ MỤC CỦA DỰ ÁN REACT
+
+- 📁 node_modules: Chứa những thành phần thư viện
+- 📁 public: Chứa file index.html hiển thị trên trình duyệt
+- 📁 src: Chứa các file code chính
+  - App.css : file css
+  - App.jsx: code js chính ở đây
+- file:
+  - .gitignore (quản lý git)
+  - REAMDE.md: miêu tả cho project
+  - package.json: file cấu hình cho dự án
 ```
