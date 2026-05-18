@@ -4,6 +4,11 @@
 1. Introduce và phân tích kiến thức
 2. ReactJS thông tin cần biết
   - ReactJS
+    - Javascript library for building dynamic user interfaces
+    - View in MVC
+    - SPA - Single Page Application
+    - Mainteined by Meta and community of individual developers
+
   - Enviroment
   - Hello Component
 3. Tích hợp Bootstrap
@@ -20,3 +25,12 @@
 ```
 
 ## 1. React cơ bản
+
+## 2. ReactJS thông tin cần biết
+
+```
+- Javascript library for building dynamic user interfaces
+- View in MVC
+- SPA - Single Page Application
+- Mainteined by Meta and community of individual developers
+```
