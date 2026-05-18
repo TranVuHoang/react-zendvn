@@ -34,3 +34,12 @@
 - SPA - Single Page Application
 - Mainteined by Meta and community of individual developers
 ```
+
+## 3. Cài đặt môi trường học tập
+
+```
+- VSCode
+- Chorme dev tools
+- React develop tools
+- Nodejs
+```
