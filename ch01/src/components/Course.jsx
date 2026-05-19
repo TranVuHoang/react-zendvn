@@ -1,6 +1,14 @@
 import Lesson from "./Lesson";
 
-const Course = ({ time, name, children }) => {
+const Course = ({ time, name, free, children }) => {
+  const showButtonFree = () => {
+    return (
+      <button className={`btn ${free ? "btn-success" : "btn-info"}`}>
+        {free ? "View" : "Buy"}
+      </button>
+    );
+  };
+
   return (
     <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div className="panel panel-info">
@@ -10,15 +18,14 @@ const Course = ({ time, name, children }) => {
         <div className="panel-body">
           <p>{name}</p>
           <p>{children}</p>
+          <p>{free}</p>
           <ul className="list-group">
             <Lesson />
             <Lesson />
             <Lesson />
           </ul>
         </div>
-        <div className="panel-footer text-center">
-          <button className="btn btn-warning ">View</button>
-        </div>
+        <div className="panel-footer text-center">{showButtonFree()}</div>
       </div>
     </div>
   );
