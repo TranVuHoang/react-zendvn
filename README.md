@@ -135,3 +135,15 @@ VueJS
   Chương 2: ABC
   Chương 3: ABC
 ```
+
+## 12 Tìm hiểu JSX
+
+```
+JSX - Javascript XML: Cú pháp để thay thế js, cách viếtteiv gần giống XML
+thay thế React.createElement()
+JSX không phải HTML
+
+<App />
+thuộc tính class thay bằng className
+...
+```
