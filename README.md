@@ -147,3 +147,8 @@ JSX không phải HTML
 thuộc tính class thay bằng className
 ...
 ```
+## Bài 13 Sử dụng Props - Phần 1
+```
+TÌM HIỂU PROPS TRONG REACT
+
+- props là thuộc tính của 1 component
